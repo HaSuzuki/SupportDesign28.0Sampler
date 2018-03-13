@@ -25,5 +25,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, BottomAppBarActivity::class.java)
             startActivity(intent)
         })
+
+        chip.setOnClickListener({
+            val intent = Intent(this, ChipActivity::class.java)
+            startActivity(intent)
+        })
     }
 }
