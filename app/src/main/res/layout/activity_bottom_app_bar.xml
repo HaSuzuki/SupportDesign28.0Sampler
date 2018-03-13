@@ -25,14 +25,13 @@
         android:id="@+id/bottomappbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:layout_gravity="bottom"
+        android:layout_gravity="bottom|right"
         app:backgroundTint="@color/colorPrimary"
         app:popupTheme="@style/AppTheme.PopupOverlay"/>
 
-    <include layout="@layout/activity_main"/>
-
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_anchor="@id/bottomappbar"
