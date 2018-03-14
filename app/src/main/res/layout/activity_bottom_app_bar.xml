@@ -4,6 +4,29 @@
                                                  android:layout_width="match_parent"
                                                  android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/button_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="150dp"
+        android:text="@string/center_string"/>
+
+    <Button
+        android:id="@+id/button_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/end_string"/>
+
+    <Button
+        android:id="@+id/button_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:text="@string/fab_size"/>
+
     <android.support.design.bottomappbar.BottomAppBar
         android:id="@+id/bottomappbar"
         android:layout_width="match_parent"
@@ -17,7 +40,7 @@
         style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:fabSize="mini"
+        app:fabSize="normal"
         app:layout_anchor="@id/bottomappbar"
         app:srcCompat="@android:drawable/ic_dialog_dialer"/>
 
