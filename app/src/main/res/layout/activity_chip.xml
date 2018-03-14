@@ -7,9 +7,9 @@
     android:layout_height="match_parent"
     tools:context="com.example.hakutosuzuki.p_alpha_slibrarysampler.ChipActivity">
 
-    <!--<android.support.design.chip.ChipGroup-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content">-->
+    <android.support.design.chip.ChipGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 
     <android.support.design.chip.Chip
         android:id="@+id/chip1"
@@ -56,6 +56,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chip3"/>
 
-    <!--</android.support.design.chip.ChipGroup>-->
+    </android.support.design.chip.ChipGroup>
 
 </android.support.constraint.ConstraintLayout>
