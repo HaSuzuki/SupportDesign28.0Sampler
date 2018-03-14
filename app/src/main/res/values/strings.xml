@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">P-Alpha-SLibrarySampler</string>
+
+    <string name="end_string">end</string>
+    <string name="center_string">center</string>
+    <string name="fab_size">fab_size</string>
 </resources>
